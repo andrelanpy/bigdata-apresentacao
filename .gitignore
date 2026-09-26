@@ -1,0 +1,16 @@
+# Dados gerados pelos scripts (Parquet, ~1,4 GB). Recrie com os scripts de analise.
+dados/
+*.parquet
+*.tsv
+*.csv.gz
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# DuckDB
+*.duckdb
+*.wal
+.tmp/
